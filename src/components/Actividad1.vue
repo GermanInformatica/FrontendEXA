@@ -108,7 +108,7 @@ export default {
         this.form.notas[2] * ponderaciones[2]
 
       this.resultado = promedio
-      this.estado = promedio >= 40 && this.form.asistencia >= 80 ? 'aprobado' : 'reprobado'
+      this.estado = promedio >= 40 && this.form.asistencia >= 80 ? 'Aprobado' : 'Reprobado'
     }
   }
 }
