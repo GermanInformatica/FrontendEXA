@@ -44,8 +44,8 @@
     <!-- Resultado -->
     <div v-if="resultado !== null" class="mt-4">
       <div class="alert" :class="estado === 'aprobado' ? 'alert-success' : 'alert-danger'">
-        <p><strong>Promedio ponderado:</strong> {{ resultado.toFixed(2) }}</p>
-        <p><strong>Estado:</strong> {{ estado }}</p>
+        <p><strong>El promedio es:</strong> {{ resultado.toFixed(2) }}</p>
+        <p><strong>Tu estado es:</strong> {{ estado }}</p>
       </div>
     </div>
   </div>
