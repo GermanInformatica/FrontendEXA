@@ -11,13 +11,13 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/registro">Formulario de registro</router-link>
             </li>
-            <!-- Aquí solo texto plano -->
+            <!-- Espacio guardado -->
             <li class="nav-item">
               <span class="nav-link">En construcción</span>
             </li>
           </ul>
 
-          <!-- 🔎 Barra de búsqueda añadida -->
+          <!-- Barra de búsqueda añadida -->
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
